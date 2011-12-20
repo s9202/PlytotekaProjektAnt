@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="5" hostname="macieg-Komputer" name="com.pl.maciej.tests.OsobaTest" tests="14" time="0.389" timestamp="2011-12-19T18:41:45">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="env.MOZ_PLUGIN_PATH" value="C:\ProgramData\Gadu-Gadu 10\_userdata" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/D:/eclipse32_JEE/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre6\lib\resources.jar;C:\Program Files (x86)\Java\jre6\lib\rt.jar;C:\Program Files (x86)\Java\jre6\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre6\lib\jsse.jar;C:\Program Files (x86)\Java\jre6\lib\jce.jar;C:\Program Files (x86)\Java\jre6\lib\charsets.jar;C:\Program Files (x86)\Java\jre6\lib\modules\jdk.boot.jar;C:\Program Files (x86)\Java\jre6\classes" />
+    <property name="env.COMPUTERNAME" value="MACIEG-KOMPUTER" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="D:\eclipse32_JEE\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+    <property name="java.runtime.version" value="1.6.0_29-b11" />
+    <property name="produkt.archiwum.kompilaty" value="skompil.jar" />
+    <property name="env.HOMEPATH" value="\Users\macieg" />
+    <property name="produkt.kompilaty" value="./bin/" />
+    <property name="user.name" value="macieg" />
+    <property name="ant.file.type.ProjektAnt" value="file" />
+    <property name="user.language" value="pl" />
+    <property name="ant.file.ProjektAnt" value="C:\Users\macieg\workspace\ProjektAnt\bulid.xml" />
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre6\bin" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="ant.project.name" value="ProjektAnt" />
+    <property name="java.version" value="1.6.0_29" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="AMD64 Family 16 Model 5 Stepping 3, AuthenticAMD" />
+    <property name="zrodla" value="./src" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\macieg\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jre6\lib\endorsed" />
+    <property name="env.PROCESSOR_ARCHITEW6432" value="AMD64" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1250" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="PL" />
+    <property name="java.home" value="C:\Program Files (x86)\Java\jre6" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\macieg\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files (x86)\Common Files" />
+    <property name="ant.file" value="C:\Users\macieg\workspace\ProjektAnt\bulid.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="20.4-b02" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\macieg" />
+    <property name="ant.library.dir" value="D:\eclipse32_JEE\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\macieg\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="eclipse.pdebuild.scripts" value="/D:/eclipse32_JEE/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/" />
+    <property name="wynikitestu" value="./wynikitestu" />
+    <property name="user.home" value="C:\Users\macieg" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jre6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\php;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Ant\apache-ant-1.8.2\bin;D:\eclipse32_JEE\eclipse;;." />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="java.class.path" value="C:\Users\macieg\workspace\ProjektAnt\bin;C:\Users\macieg\workspace\ProjektAnt\lib\log4j-1.2.16.jar;C:\Users\macieg\workspace\ProjektAnt\lib\junit-4.10.jar;D:\eclipse32_JEE\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-launcher.jar;D:\eclipse32_JEE\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar;D:\eclipse32_JEE\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit.jar;D:\eclipse32_JEE\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.pl.maciej.tests.OsobaTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\macieg\workspace\ProjektAnt\wynikitestu\TEST-com.pl.maciej.tests.OsobaTest.xml crashfile=C:\Users\macieg\workspace\ProjektAnt\junitvmwatcher1616120915602459469.properties propsfile=C:\Users\macieg\workspace\ProjektAnt\junit5139403775702032060.properties" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.LOGONSERVER" value="\\MACIEG-KOMPUTER" />
+    <property name="produkt.archiwum" value="./archiw-jar" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.ProgramFiles" value="C:\Program Files (x86)" />
+    <property name="env.ANT_HOME" value="D:\eclipse32_JEE\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+    <property name="env.PROCESSOR_REVISION" value="0503" />
+    <property name="eclipse.pdebuild.home" value="/D:/eclipse32_JEE/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./" />
+    <property name="java.io.tmpdir" value="C:\Users\macieg\AppData\Local\Temp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="x86" />
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jre6\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\macieg\workspace\ProjektAnt" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\macieg\AppData\Local" />
+    <property name="produkt.archiwum.zrodla" value="zrodla.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\php;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Ant\apache-ant-1.8.2\bin;D:\eclipse32_JEE\eclipse;" />
+    <property name="basedir" value="C:\Users\macieg\workspace\ProjektAnt" />
+    <property name="produkt" value="./bin/" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="D:\eclipse32_JEE\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar" />
+    <property name="env.USERNAME" value="macieg" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1250" />
+    <property name="env.VS100COMNTOOLS" value="d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\" />
+    <property name="env.USERDOMAIN" value="macieg-Komputer" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.project.invoked-targets" value="all" />
+    <property name="env.PROCESSOR_LEVEL" value="16" />
+  </properties>
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testOsoba" time="0.055" />
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testDodajPlyte" time="0.112" />
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testDodajPlyte_RokWydania" time="0.013" />
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testDodajPlyte_Wykonawca" time="0.017">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.pl.maciej.prog.KolekcjaPlyt.wyszukajPlyte(Unknown Source)
+	at com.pl.maciej.prog.Osoba.wyszukajPlyte(Unknown Source)
+	at com.pl.maciej.tests.OsobaTest.testDodajPlyte_Wykonawca(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testDodajPlyte_Tytul" time="0.015">
+    <failure message="Dodanie płyty z pustym tytułem lub niepoprawne wyszukiwanie płyty!" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Dodanie płyty z pustym tytułem lub niepoprawne wyszukiwanie płyty!
+	at com.pl.maciej.tests.OsobaTest.testDodajPlyte_Tytul(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testUsunPlyteInt" time="0.0020">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at com.pl.maciej.tests.OsobaTest.testUsunPlyteInt(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testUsunPlyteStringStringPlytaGatunekInt" time="0.0070" />
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testWyszukajPlyte" time="0.0010">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at com.pl.maciej.tests.OsobaTest.testWyszukajPlyte(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testEdytujPlyteIntStringStringPlytaGatunekInt" time="0.0020">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at com.pl.maciej.tests.OsobaTest.testEdytujPlyteIntStringStringPlytaGatunekInt(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testEdytujPlyteStringStringPlytaGatunekIntStringStringPlytaGatunekInt" time="0.0020">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at com.pl.maciej.tests.OsobaTest.testEdytujPlyteStringStringPlytaGatunekIntStringStringPlytaGatunekInt(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testUstawImie" time="0.0" />
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testUstawNazwisko" time="0.0" />
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testDajImie" time="0.0" />
+  <testcase classname="com.pl.maciej.tests.OsobaTest" name="testDajNazwisko" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

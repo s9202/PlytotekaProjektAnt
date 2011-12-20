@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project name="ProjektAnt" basedir="." default="all">
+
+	<property environment="env"/>
+	<property name="produkt" value="./bin/"/>
+	<property name="produkt.kompilaty" value="./bin/"/>
+	<property name="produkt.archiwum" value="./archiw-jar"/>
+	<property name="produkt.archiwum.zrodla" value="zrodla.jar"/>
+	<property name="produkt.archiwum.kompilaty" value="skompil.jar"/>
+	<property name="zrodla" value="./src"/>
+	<property name="wynikitestu" value="./wynikitestu"/>
+	
+	<path id="ProjektAnt.classpath">
+		<pathelement location="bin"/>
+		<pathelement location="lib/log4j-1.2.16.jar"/>
+		<pathelement location="lib/junit-4.10.jar"/>
+	</path>
+
+    <target name="czyszczenie" description="Usuwa katalogi ze skompilowanym kodem">
+		<delete includeemptydirs="true" failonerror="no">
+           	<fileset dir="${produkt.kompilaty}" includes="**/*" />
+        </delete>
+    	
+        <delete includeemptydirs="true" failonerror="no">
+        	<fileset dir="${produkt}" includes="**/*" />
+		</delete>
+
+    	<delete includeemptydirs="true" failonerror="no">
+    		<fileset dir="${produkt.archiwum}" includes="**/*" />
+    	</delete>
+    	
+    	<delete includeemptydirs="true" failonerror="no">
+    		<fileset dir="${wynikitestu}" includes="**/*" />
+    	</delete>
+	</target>
+
+	<target name="struktura" depends="czyszczenie" description="Tworzy strukture projektu">
+		<mkdir dir="${produkt}" />
+		<mkdir dir="${produkt.kompilaty}" />
+		<mkdir dir="${produkt.archiwum}" />
+		<mkdir dir="${wynikitestu}"/>
+	</target>
+
+	<target name="kompilacja" depends="struktura" description="Kompiluje kod programu">
+		<javac srcdir="${zrodla}" destdir="${produkt.kompilaty}" >
+			<src path="${zrodla}"/>
+			<classpath refid="ProjektAnt.classpath"/>
+		</javac>
+	</target>
+
+	<target name="plikijar" depends="kompilacja" description="Tworzy pliki jar: ze zrodlami i z kompilatami">
+    	<jar destfile="${produkt.archiwum}/${produkt.archiwum.zrodla}">
+        	<fileset dir="${zrodla}" />
+        </jar>
+        <jar destfile="${produkt.archiwum}/${produkt.archiwum.kompilaty}">
+        	<fileset dir="${produkt.kompilaty}" />
+    	</jar>
+	</target>
+
+	<target name="Main" depends="kompilacja" description="Uruchamia program">
+    	<java classname="com.pl.maciej.prog.Main" failonerror="true" fork="yes">
+        	<classpath refid="ProjektAnt.classpath"/>
+		</java>
+	</target>
+	
+	<target name="OsobaTest" depends="kompilacja">
+		<junit fork="yes" printsummary="withOutAndErr">
+			<formatter type="xml"/>
+			<test name="com.pl.maciej.tests.OsobaTest" todir="${wynikitestu}"/>
+			<classpath refid="ProjektAnt.classpath"/>
+		</junit>
+	</target>
+	
+	 <target name="all" depends="Main,plikijar,OsobaTest"></target>
+</project>
